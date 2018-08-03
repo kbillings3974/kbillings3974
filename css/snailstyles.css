@@ -1,0 +1,113 @@
+/* Style sheet created by: Kaitlyn Billings */
+
+/* Style for body specifies a background color */
+body {
+	background-color: #F5F17A; /*yellow*/
+}
+
+/* Style to create a fluid image */
+img {
+	max-width: 35%;
+	max-height: 35%;
+	float: right;
+}
+
+/* Style for container centers the page and sets the element width */
+#container {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Style specifies header properties */
+header {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	background-color: #F5F17A; /*yellow*/
+	border-radius: 10px;
+	text-align: center;
+}
+
+/* Style specifies navigation properties */
+nav {
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 1.25em;
+	font-weight: bold;
+	text-align: center;
+	padding: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 20px;
+	border-top: 5px solid #906D4B; /*brown*/
+	border-bottom: 5px solid #906D4B; /*brown*/
+}
+
+nav a:link {
+	color: #906D4B;
+	text-decoration: none;
+}
+
+
+
+/* Style specifies main element properties */
+main {
+	display: inline-block;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 1em;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	padding: 20px;
+	border-radius: 10px;
+	background-color: #B7FCBF; /*green*/
+}
+
+
+
+/* Style specifies footer element properties */
+footer {
+	font-size: .70em;
+	text-align: center;
+}
+
+/* Styles for figures page */ 
+/* Style specifies properties for aside element */
+aside {
+	font-style: italic;
+	background-color: #906D4B; /*brown*/
+	border-radius: 0 5em 5em 5em;
+	padding: 1.5em;
+	margin: 1em;
+}
+
+/* Style specifies properties for article element */
+article {
+	background-color: #B7FCBF;
+	float: left;
+	margin: 0.5%;
+	padding: 0.5%;
+	text-align: center;
+	width: 31%;
+	overflow: auto;
+}
+
+.equip {
+	display: block;
+	margin-left: 1.5em;
+	max-height: 35%;
+	max-width: 35%;
+	transform: rotate(90deg);
+	
+}
+.figure {
+	display: inline;
+	max-width: 100%;
+}
+.banner {
+	max-width: 100%;
+	float: none;
+	clear: none;
+	display: inline-block;
+}
+.header {
+	float: none;
+}
